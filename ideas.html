@@ -1,0 +1,192 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>deal.II: Project ideas</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+    <!-- Include stylesheets -->
+    <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet"/>
+    <link href="css/global.less" type="text/less" rel="stylesheet"/>
+    <link href="css/index.less" type="text/less" rel="stylesheet"/>
+
+    <!-- LESS needs to come after the stylesheets -->
+    <script src="js/less-1.4.1.min.js"></script>
+  </head>
+
+  <body>
+
+    <!--#include file="header.include" -->
+
+    <div id="content" class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-9">
+          <div class="well">
+
+            <h2>Project ideas</h2>
+
+            <p>
+              <abbr>deal.II</abbr> is a community project that lives
+              by the <a href="participate.html">participation of its
+              members</a>. It grows by members of our community
+              implementing things that they find interesting,
+              important, gratifying, or useful for their own
+              work. Here are a few ideas for larger projects that
+              would make a significant difference:
+            </p>
+            <ul>
+              <li>
+                <b>Parallel <code>hp::DoFHandler</code>:</b>
+                Currently, only the <code>::DoFHandler</code> class
+                can work on parallel or shared triangulations, but
+                <code>hp::DoFHandler</code> can not. This is a serious
+                obstacles not only for people who really want to
+                do <i>hp</i> adaptivity, but also for those who want
+                to use <code>FE_Nothing</code> on some cells in the
+                style of step-46, and want to do so for parallel
+                computations.
+                <br>
+                We know pretty well what steps one needs to take to
+                get us there, but lack the time to do it. It would,
+                however, make for a nice and self-contained project
+                with big pay-off.
+              </li>
+
+              <li>
+                <b>Write a finite element:</b> deal.II implements a
+                fair number of different elements, but there are many
+                more out there. Examples include the various
+                elasticity elements, serendipity elements, and a number of nonconforming
+                elements. These make for relatively self-contained
+                projects since one really only has to understand one
+                particular aspect of deal.II -- the interfaces of
+                the <code>FiniteElement</code> class and how it
+                interacts with <code>FEValues</code> and a rather
+                limited set of other functions.
+                <br>
+                An often requested feature would also be a tutorial
+                program that walks users through the process of
+                writing an element description. In other words, a
+                tutorial program that <i>shows</i> how one would write a
+                finite element would be fantastic.
+              </li>
+
+              <li>
+                <b>Complex valued algebra:</b> Many scientific
+                applications demand usage of complex valued algebra.
+                Being a heavily templated C++ library, deal.II is
+                almost ready to support that usage case.  Much of the
+                preliminary work was done in the following
+                pull-requests
+                <a href="https://github.com/dealii/dealii/pull/1027">1027</a>,
+                and <a href="https://github.com/dealii/dealii/pull/631">631</a>.
+                However there is some work left to do to make the
+                issue completely fixed (see github issue
+                <a href="https://github.com/dealii/dealii/issues/1894">1894</a>
+                and
+                <a href="https://github.com/dealii/dealii/issues/2033">2033</a>). Completing
+                these remaining steps would make a nice
+                and self-contained project.
+              </li>
+
+              <li>
+                <b>Restructure finite element interfaces:</b> The
+                interfaces of the finite element and mapping classes
+                date back to the earliest times of deal.II when we
+                were not as experienced software designers as we are
+                now. Much of this has been rewritten in 2015 as part of
+                <a href="https://github.com/dealii/dealii/issues/1198">github
+                issue 1198</a>, but a few odd corners remain. In
+                particular, there are a couple of classes that take a
+                template argument that designates a class that
+                describes a polynomial space, when it would be
+                entirely sufficient to just receive a reference to a
+                class object (rather than a class type) that
+                represents this space, see
+                <a href="https://github.com/dealii/dealii/issues/1973">github
+                issue 1973</a>. Making this change would eliminate a
+                template argument, improve compile time, and make the
+                interfaces easier to understand.
+              </li>
+
+              <li>
+                <b>Use C++11 lambda functions:</b> In many places
+                where we spawn tasks for parallel processing, we
+                implement these tasks in separate functions because in
+                C++98 and C++03, tasks required providing a pointer to
+                a (named) function. C++11 now has lambda functions,
+                and so a simpler way to achieve the same goal is to
+                implement the code to be executed on a task as a
+                lambda function, declared right at the place where one
+                wants to use it. Examples for this are in the
+                implementation of parallelized vector operations for
+                multithreading, and many of the places where we
+                call <code>Threads::new_task()</code>.
+              </li>
+
+              <li>
+                <b>Improve error messages:</b> In the past, we have
+                often just provided the equivalent of an "An error has
+                occurred" statement if a user called a function with
+                wrong arguments, but this is not as useful as could be
+                to find out what exactly it was that you did wrong. A
+                better approach is to be much more verbose with error
+                messages. We track our progress towards this goal in
+                <a href="https://github.com/dealii/dealii/issues/610">github
+                issue 610</a>.
+              </li>
+
+              <li>
+                <b>Linux based installer:</b> We have been working on
+		providing a source based installer on linux systems, but this
+		requires additional testing, support for more systems/clusters
+		and writing
+		documentation. See 
+		<a href="https://github.com/dealii/dealii/issues/1523">github
+		issue 1523</a> for more information.
+              </li>
+
+             <li>
+                <b>Saving memory for very large parallel computations:</b>
+                When doing large scale parappel computations especially with a
+                large coarse mesh, large amounts of memory are wasted. This is
+                true especially when using an MPI only approach, because a
+                single node will have many (redundant) copies of the
+                data. There are several ways to re-organize the data
+                structures or using special MPI support for shared
+                allocations. See 
+		<a href="https://github.com/dealii/dealii/issues/2209">github
+		issue 2209</a> for more information.
+              </li>
+
+              <li>
+                <b>Easy enhancement projects:</b> Some smaller
+                projects are also described on the 
+                <a href="https://github.com/dealii/dealii/issues">list
+                  of open issues</a> at our github site. 
+              </li>
+
+            </ul>
+
+            <p>
+              If you want to work on any of these projects: awesome! A good
+              starting point would be to <a href="authors.html">contact the
+              principal developers</a> so we can coordinate finding someone to
+              mentor you.
+            </p>
+
+          </div>
+        </div>
+      </div>
+
+    <!--#include file="footer.include" -->
+
+    </div>
+
+  </body>
+  <!-- Some JQuery needs to come after the body -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/accordion.js"></script>
+</html>

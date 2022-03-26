@@ -1,0 +1,358 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>The deal.II Code Gallery</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <!-- Include stylesheets -->
+    <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet"/>
+    <link href="css/global.less" type="text/less" rel="stylesheet"/>
+    <link href="css/index.less" type="text/less" rel="stylesheet"/>
+
+    <!-- LESS needs to come after the stylesheets -->
+    <script src="js/less-1.4.1.min.js"></script>
+  </head>
+  
+  <body>
+
+    <!--#include file="header.include" -->
+
+    <div id="content" class="container">
+      <div class="container">
+        <div class="panel panel-danger">
+          <div class="panel-body">
+            <h2>The deal.II Code Gallery</h2>
+
+            <p>
+              The deal.II "code gallery" is an extension to the
+              deal.II tutorial. While the tutorial's emphasis is on
+              teaching aspects of deal.II by providing concrete
+              examples &mdash; and extensive documentation and
+              discussion &mdash; of how parts of deal.II are used in
+              applications, the intent of the code gallery is <i>to
+              provide starting points</i> for your own codes by making
+              available codes others have already written.
+            </p>
+            
+            <p>
+              As a general rule:
+              <ul>
+                <li>
+                  The code gallery is not part of deal.II. The
+                  applications in the code gallery were written by
+                  users who wanted to make their codes available.
+                </li>
+
+                <li>
+                  The applications in the code gallery are generally
+                  not as well tested or documented as the tutorial
+                  programs. <b>These codes come with no warranty at
+                  all.</b> If you have questions, you need to
+                  contact the authors of these codes, not the authors
+                  of deal.II.
+                </li>
+
+                <li>
+                  <b>We welcome additions and improvements to existing
+                  codes, as well as new code gallery applications!</b>
+                  Most users start their own applications from an
+                  existing tutorial program. Having more starting
+                  points helps others, but it also gives code gallery
+                  authors additional ways to get recognition for their
+                  own codes! See below
+                  for <a href="#instructions">instructions on how to
+                  contribute</a>.
+                </li>
+              </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-12 col-sm-9">
+          <div class="well">
+
+            <h2>Quick links</h2>
+
+
+            <div style="display: flex; flex-direction: row; align-items: center; margin-bottom: 0.5em;">
+              <div>
+                <a class="btn btn-success" style="width:10em" href="https://dealii.org/developer/doxygen/deal.II/CodeGallery.html">Codes &raquo;</a>
+              </div>
+              &nbsp;
+              &nbsp;
+              <div>
+                <i>
+                  See the list of programs that are part of the code gallery.
+                </i>
+              </div>
+            </div>
+
+            <div style="display: flex; flex-direction: row; align-items: center; margin-bottom: 0.5em;">
+              <div>
+                <a class="btn btn-success" style="width:10em" href="#download">Download &raquo;</a>
+              </div>
+              &nbsp;
+              &nbsp;
+              <div>
+                <i>
+                  Downloading the programs of the code gallery is easy.
+                </i>
+              </div>
+            </div>
+
+            <div style="display: flex; flex-direction: row; align-items: center; margin-bottom: 0.5em;">
+              <div>
+                <a class="btn btn-success" style="width:10em" href="#instructions">Contribute! &raquo;</a>
+              </div>
+              &nbsp;
+              &nbsp;
+              <div>
+                <i>
+                  Contribute your own codes as a starting point for others.
+                </i>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="well">
+
+            <h2>What's in it?</h2>
+
+            <p>
+              To see what codes are part of the code
+              gallery,
+              see <a href="https://dealii.org/developer/doxygen/deal.II/CodeGallery.html">this
+              list</a>.
+              You can also see how these codes build on the tutorial
+              programs by finding the open circles on
+              the <a href="https://dealii.org/developer/doxygen/deal.II/Tutorial.html#graph">graph
+              of connections between tutorial and code gallery codes</a>.
+            </p>
+          </div>
+
+
+          <div class="well" id="download">
+
+            <h2>Downloading the code gallery</h2>
+
+            <p>
+              You can get the entire code gallery from its github home
+              by using the command
+              <code>
+                <pre>
+git clone https://github.com/dealii/code-gallery.git</pre>
+              </code>
+              This creates a directory <code>code-gallery/</code> that
+              contains all code gallery programs.
+            </p>
+
+            <p>
+              If you want to generate the deal.II documentation
+              locally and want it to also cross-link to the code
+              gallery, you need to do the step above within your copy
+              of deal.II, i.e., so that the command above creates a
+              directory <code>code-gallery/</code> parallel to the
+              <code>include/</code>,
+              <code>source/</code>, and
+              <code>examples/</code> directories (and others).
+            </p>
+          </div>
+
+
+          <div class="well" id="instructions">
+
+            <h2>Contributing codes to the gallery</h2>
+
+            <p>First: <b>We appreciate all contributions!</b> We have
+            tried to set the bar to entry as low as possible. In
+            essence, here is all you have to do:</p>
+
+            <ol>
+              <li>
+                Create a fork of the git repository for the code
+                gallery. To this end, you need to have an account at
+                <a href="http://github.com">github.com</a>. Log in,
+                then go
+                to <a href="https://github.com/dealii/code-gallery">https://github.com/dealii/code-gallery</a>
+                and click on the "Fork" symbol at the top right.
+              </li>
+              
+              <li>
+                This yields a copy of the code gallery repository to
+                which you are allowed to write (a "fork"). At the
+                right side of the page, you will find its HTTPS
+                address. Check out a copy of it to your local hard drive via
+                <code>
+                  <pre>
+git clone https://github.com/yourusername/code-gallery.git</pre>
+                </code>
+                where you replace <code>myusername</code> with your
+                github user name.
+              </li>
+              
+              <li>
+                Go into the <code>code-gallery</code> directory just
+                generated. Within it, create a new directory for your
+                project, named as you like.
+              </li>
+
+              <li>
+                Put your source files and everything else you need
+                into this directory. In addition, the following files
+                and subdirectories need to exist:
+                <ul>
+                  <li>
+                    <p>
+                    <code>Readme.md</code>:
+                    A <a href="https://daringfireball.net/projects/markdown/basics">markdown formatted</a> file that
+                    provides a basic overview of what this program
+                    does. You can use latex-style formulas enclosed
+                    in <code>$...$</code>, or offset via
+                    <code><pre>
+  @f{align*}{
+    ...
+  @f}</pre></code>
+                    to explain ideas.
+                    </p>
+                  </li>
+
+                  <li>
+                    <p>
+                    <code>CMakeLists.txt</code>:
+                    A Cmake file that allows others to build your
+                    code. It must be possible to simply run it via
+                    <code>
+                    <pre>
+cmake -DDEAL_II_DIR=/path/to/dealii . ; make ; make run</pre>
+                    </code>
+                    </p>
+                  </li>
+
+                  <li>
+                    <p>
+                    <code>doc/entry-name</code>:
+                    A file that contains a simple, short name of
+                    the program. This will likely match the directory
+                    name, but can contain spaces and special
+                    characters (encoded in HTML, if necessary). This
+                    name will be used in the title line of the
+                    program's page, as well as in
+                    the <a href="https://dealii.org/developer/doxygen/deal.II/CodeGallery.html">the
+                    list of programs</a>.
+                    </p>
+                  </li>
+
+                  <li>
+                    <p>
+                    <code>doc/tooltip</code>:
+                    A one-line description of the program that is
+                    shown when hovering over a symbol in the
+                    connection graph.
+                    </p>
+                  </li>
+
+                  <li>
+                    <p>
+                    <code>doc/builds-on</code>:
+                    A list of the form
+                    <code>
+                    <pre>
+step-XX step-YY gallery-NNNN gallery-MMMM</pre>
+                    </code>
+                    where <code>XX</code> and <code>YY</code> are the
+                    numbers of existing tutorials programs that your
+                    application builds on, and <code>NNNN</code>
+                    and <code>MMMM</code> are the names of existing
+                    gallery applications. This information is used to
+                    build
+                    the <a href="http://dealii.org/developer/doxygen/deal.II/Tutorial.html#graph">connection
+                    graph for tutorial and code gallery
+                    applications</a>.
+                    </p>
+                  </li>
+
+                  <li>
+                    <p>
+                    <code>doc/author</code>:
+                    A list of authors and their email addresses in the form
+                    <code>
+                    <pre>
+Jane Doe &lt;jane@doe.org&gt;,
+Helga Mustermann &lt;helga@email.de&gt;</pre>
+                    </code>
+                    </p>
+                  </li>
+
+                  <li>
+                    <p>
+                    <code>doc/dependencies</code>:
+                    A file with a list of entries of the form
+                    <code>
+                    <pre>
+DEAL_II_WITH_CXX11 DEAL_II_WITH_TRILINOS</pre>
+                    </code>
+                    that specifies what requirements you need of the
+                    underlying deal.II installation for your program
+                    to run. The entries are Cmake variables that are
+                    set during deal.II configuration and correspond to
+                    the items you find printed in the summary at the
+                    end of a <code>cmake</code> run when configuring
+                    deal.II.
+                    </p>
+                  </li>
+                </ul>
+              </li>
+
+              <li>
+                Create a branch in your local git copy:
+                    <code>
+                    <pre>
+git branch my-code-gallery-project
+git checkout my-code-gallery-project</pre></code>
+              </li>
+
+              <li>
+                Add your code gallery project to the git directory and
+                upload it to your fork of the repository:
+                    <code>
+                    <pre>
+git add my-project-name
+git push origin my-code-gallery-project</pre></code>
+              </li>
+
+              <li>
+                Go to your github code-gallery page, which should be
+                named <code>https://github.com/myusername/code-gallery</code>. Sign
+                in if necessary. It should allow you to create a "pull
+                request" for your new code gallery project. Do so --
+                this will alert the deal.II maintainers to the fact
+                that you want to contribute a new project, and sets up
+                a short code review process.
+            </ol>
+
+          </div>
+        </div>
+        <div class="hidden-sm col-md-3">
+          <div class="well" style="height:700px">
+
+            <!-- Picture Carousel -->
+
+            <iframe width="100%" height="100%" frameborder="0" src="carousel2.php">
+            </iframe>
+          </div>
+        </div>
+      </div>
+     
+    <!--#include file="footer.include" -->
+    </div>
+  </body>
+
+  <!-- Some JQuery needs to come after the body -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/accordion.js"></script>
+</html>

@@ -1,0 +1,15 @@
+#!/bin/sh
+
+echo Content-Type: text/html
+echo
+
+echo '<html><head><title>deal.II SVN Log</title>'
+echo '<link href="/screen.css" type="text/css" rel="StyleSheet"/>'
+echo '<link rel="SHORTCUT ICON" href="deal.ico"/>'
+echo '<meta name="author" content="the deal.II authors <authors@dealii.org>"/>'
+echo '</head><body>'
+
+svn log http://www.dealii.org/svn/dealii --xml -v -l 20 > T
+xsltproc /var/www/html/svnhtml.xsl T
+
+echo '</body></html>'

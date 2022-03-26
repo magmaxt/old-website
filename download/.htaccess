@@ -1,0 +1,5 @@
+order allow,deny
+deny from 61.50.142.26
+deny from 59.94.114.114
+deny from 222.20.216.21
+allow from all

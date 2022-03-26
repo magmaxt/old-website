@@ -1,0 +1,16 @@
+This directory contains the icons used on the homepage.
+
+The directory gallery contains thumbnails of pictures in the Wiki
+gallery. All these pictures must have a width of 100 pixels and their
+aspect ratio should be close to one.
+
+These pictures must have exactly the same name as the ones in the Wiki
+gallery, since the links are generated from filenames.
+
+A convenient way of generating the thumbnails is using the script getpic:
+
+perl ../../cgi-bin/getpic.pl <picname>
+rm rawpicname
+
+This will download the picture from the wiki and convert it to the
+correct size. The raw picture should be deleted and NOT committed.

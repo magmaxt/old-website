@@ -1,0 +1,179 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>About deal.II</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+    <!-- Include stylesheets -->
+    <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet"/>
+    <link href="css/global.less" type="text/less" rel="stylesheet"/>
+    <link href="css/index.less" type="text/less" rel="stylesheet"/>
+
+    <!-- LESS needs to come after the stylesheets -->
+    <script src="js/less-1.4.1.min.js"></script>
+  </head>
+
+  <body>
+
+    <!--#include file="header.include" -->
+
+    <div id="content" class="container">
+      <div class="row">
+        <div class="well">
+	  <h2>What is <abbr>deal.II</abbr>?</h2>
+
+	  <p>
+	    <abbr>deal.II</abbr> &mdash; a name that originally meant
+	    to indicate that it is the successor to the
+	    <b style="color: #50B0F0">D</b>ifferential
+	    <b style="color: #50B0F0">E</b>quations
+	    <b style="color: #50B0F0">A</b>nalysis
+	    <b style="color: #50B0F0">L</b>ibrary &mdash; is a C++ program library targeted at
+	    the computational solution of partial differential equations using adaptive
+	    finite elements. It uses state-of-the-art programming techniques to
+	    offer you a modern interface to the complex data
+	    structures and algorithms required.
+	  </p>
+
+	  <p>
+	    The main aim of <abbr>deal.II</abbr> is to enable rapid
+	    development of modern finite element codes, using among other
+	    aspects adaptive
+	    meshes and a wide array of tools classes often used in finite element
+	    program. Writing such programs is a non-trivial task, and
+	    successful programs tend to become very large and complex. We
+	    believe that this is best done using a program library
+	    that takes care of the details of grid
+	    handling and refinement, handling of degrees of freedom, input
+	    of meshes and output of results in graphics formats, and the
+	    like. Likewise, support for several space dimensions at once is
+	    included in a way such that programs can be written independent of
+	    the space dimension without unreasonable penalties on run-time and
+	    memory consumption.
+	  </p>
+
+	  <p>
+	    <abbr>deal.II</abbr> is widely used in many
+	    <a href="publications.html" target="body">academic and commercial
+	      projects</a>. For its creation, its principal authors have received
+	    the <a href="http://www.nag.co.uk/other/wilkinsonprize.asp"
+		   target="_top">2007 J. H. Wilkinson Prize for Numerical
+	      Software</a>. It is also part of the industry
+	    standard <a href="http://www.spec.org/cpu2006/" target="_top">SPEC CPU
+	      2006</a> and <a href="http://www.spec.org/cpu2017/" target="_top">SPEC CPU
+	      2017</a> benchmark
+	    suites used to determine the speed of computers and compilers.
+	  </p>
+
+	  <p>
+	    <abbr>deal.II</abbr> originally emerged from work at the
+	    <a href="http://numerik.iwr.uni-heidelberg.de/" target="_top">Numerical
+	      Methods Group</a> at Universit&auml;t Heidelberg, Germany, which is at
+	    the forefront of adaptive finite element methods and error estimators.
+	    Today, it is a global, open source project maintained by a
+	      <a href="authors.html">geographically diverse set of
+		developers</a>, and
+	      has <a href="authors.html" 
+		     target="body">dozens of contributors</a> and several hundred users
+	    scattered around the world. Over the years, development of deal.II has
+	    been funded as ancillary products of various grants from the Deutsche
+	    Forschungsgemeinschaft, the <a href="http://www.nsf.gov/">National
+	      Science Foundation</a>, and other funding agencies around the
+	    world. We have also received direct funding for particular projects from
+	    the <a href="http://www.geodynamics.org/">Computational Infrastructure
+	      in Geodynamics</a> initiative.
+	  </p>
+
+	</div>
+
+        <div class="well">
+
+	  <h2>What <abbr>deal.II</abbr> can offer you</h2>
+
+	  <p>
+	    If you are active in the field of adaptive finite element methods,
+	    <abbr>deal.II</abbr> might be the right library for your
+	    projects. Among other features, it offers:
+	  </p>
+
+	  <ul>
+	    <li> <p>
+		Support for one, two, and three space dimensions, using a
+		unified interface that allows to write programs almost
+		dimension independent.
+	      </p>
+
+	    <li> <p>
+		Handling of locally refined grids, including different adaptive
+		refinement strategies based on local error indicators and
+		error estimators. Both <i>h</i>, <i>p</i>, and <i>hp</i> refinement is
+		fully supported for continuous and discontinuous elements.
+	      </p>
+
+	    <li> <p>
+		Support for a variety of finite elements: Lagrange
+		elements of any order, continuous and discontinuous; Nedelec and
+		Raviart-Thomas elements of any order;
+		elements composed of other elements.
+	      </p>
+
+	    <li> <p>
+		Parallelization on single machine through the Threading Build Blocks
+		and across nodes via MPI. <abbr>deal.II</abbr> has been shown
+		to scale to at least 16k processors.
+	      </p>
+
+	    <li> <p>
+		Extensive documentation: all documentation is available online
+		in a logical tree structure to allow fast access to the information
+		you need. If printed it comprises more than 500 pages of tutorials,
+		several reports, and presently some 5,000 pages of programming
+		interface documentation with explanations of all classes,
+		functions, and variables. All documentation comes with the
+		library and is available online locally on your computer after
+		installation.
+	      </p>
+
+	    <li> <p>
+		Modern software techniques that make access to the complex
+		data structures and algorithms as transparent as possible.
+		The use of object oriented programming allows for program
+		structures similar to the structures in mathematical analysis.
+	      </p>
+
+	    <li> <p>
+		A complete stand-alone linear algebra library including sparse
+		matrices, vectors, Krylov subspace solvers, support for blocked
+		systems, and interface to other packages such as Trilinos, PETSc and
+		METIS.
+	      </p>
+
+	    <li> <p>
+		Support for several output formats, including many common
+		formats for visualization of scientific data.
+	      </p>
+
+	    <li> <p>
+		Portable support for a variety of computer platforms and compilers.
+	      </p>
+
+	    <li> <p>
+		Free source code under an Open Source license, and the
+		invitation to contribute to further development of the
+		library.
+	      </p>
+	  </ul>
+
+	</div>
+      </div>
+
+    <!--#include file="footer.include" -->
+
+    </div>
+  </body>
+  <!-- Some JQuery needs to come after the body -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/accordion.js"></script>
+</html>

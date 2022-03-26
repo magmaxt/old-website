@@ -1,0 +1,248 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>deal.II Authors</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+    <!-- Include stylesheets -->
+    <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet"/>
+    <link href="css/global.less" type="text/less" rel="stylesheet"/>
+    <link href="css/index.less" type="text/less" rel="stylesheet"/>
+
+    <style>
+      #author-list-div {
+      -moz-column-count: 3;
+      -webkit-column-count: 3;
+      column-count: 3;
+      }
+    </style>
+
+    <!-- LESS needs to come after the stylesheets -->
+    <script src="js/less-1.4.1.min.js"></script>
+  </head>
+  
+  <body>
+
+    <!--#include file="header.include" -->
+
+    <div id="content" class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-9">
+          <div class="well">
+
+            <h1>deal.II Authors</h1>
+
+            <p>
+              <abbr>deal.II</abbr> is a global project. It is
+              run by a group of <i>principal developers</i>. Former developers 
+	      with significant contributions in the past who are no 
+	      longer active, are listed under <i>developers emeriti</i>.
+	      A subset of the active developers are <i>administrators</i> and
+	      responsible for the upkeep of
+              the technical infrastructure such as the website,
+              discussion forums, and other pieces.  Finally,
+              a large number of <i>contributors</i> have provided substantial
+              patches over the years.
+              These groups are listed below.
+
+              If necessary, you can <a href="index.html#contact">contact
+              the project administrators</a>.
+            </p>
+
+
+            <h2>Principal developers</h2>
+            <ul>
+              <li>
+                <a href="https://www.ornl.gov/staff-profile/daniel-arndt">Daniel
+                Arndt</a>,
+                Oak Ridge National Laboratory, USA
+              </li>
+
+              <li>
+                <a href="http://www.math.colostate.edu/~bangerth"
+                   target="_top">Wolfgang Bangerth</a>,
+                Colorado State University, CO, USA
+              </li>
+
+              <li>
+                Marc Fehling,
+                Colorado State University, CO, USA
+              </li>
+
+              <li>
+                <a href="http://www.math.clemson.edu/~heister"
+                   target="_top">Timo Heister</a>,
+                Clemson University, SC, USA
+              </li>
+
+              <li>
+                <a href="http://people.sissa.it/~heltai/"
+                   target="_top">Luca Heltai</a>,
+                SISSA, Trieste, Italy
+              </li>
+
+              <li>
+                <a href="http://www.mathsim.eu/~gkanscha/"
+                   target="_top">Guido Kanschat</a>,
+                Heidelberg University, Germany
+              </li>
+
+              <li>
+                <a href="http://www.lnm.mw.tum.de/en/staff/martin-kronbichler/"
+                   target="_top">Martin Kronbichler</a>,
+                 Uppsala University, Sweden
+              </li>
+
+              <li>
+                <a href="http:///www.math.tamu.edu/~maier/"
+                   target="_top">Matthias Maier</a>,
+                Texas A&amp;M University, College Station, TX, USA
+              </li>
+
+              <li>
+                <a href="https://www.lnm.mw.tum.de/en/staff/peter-muench/"
+                   target="_top">Peter Munch</a>,
+                Technical University of Munich and Helmholtz-Zentrum Hereon, Germany
+              </li>
+
+              <li>
+                Jean-Paul Pelteret
+              </li>
+
+              <li>
+                <a href="https://www.ornl.gov/staff-profile/bruno-r-turcksin"
+                   target="_top">Bruno Turcksin</a>,
+                Oak Ridge National Laboratory, USA
+              </li>
+
+              <li><a href="https://drwells.web.unc.edu/">David Wells</a>,
+                University of North Carolina, Chapel Hill, NC, USA
+              </li>
+            </ul>
+
+
+            <h2>Developers emeriti</h2>
+
+            <ul>
+              <li>
+                Denis Davydov
+              </li>
+
+              <li>
+                Ralf Hartmann, DLR, Germany
+              </li>
+
+              <li>
+                <a href="http://bluebox.ippt.pan.pl/~tyoung/"
+                   target="_top">Toby D. Young</a>,
+                Polish Academy of Sciences, Poland
+              </li>
+            </ul>
+
+            <h2>Administrators</h2>
+            <ul>
+              <li>
+                <a href="http://www.math.colostate.edu/~bangerth"
+                   target="_top">Wolfgang Bangerth</a>,
+                Colorado State University, CO, USA
+              </li>
+
+              <li>
+                <a href="http://www.math.clemson.edu/~heister"
+                   target="_top">Timo Heister</a>,
+                Clemson University, SC, USA
+              </li>
+
+              <li>
+                <a href="http://www.iwr.uni-heidelberg.de/groups/MathSim/"
+                   target="_top">Guido Kanschat</a>,
+                Universit&auml;t Heidelberg, Germany
+              </li>
+
+              <li>
+                <a href="http:///www.math.tamu.edu/~maier/"
+                   target="_top">Matthias Maier</a>,
+                Texas A&amp;M University, College Station, TX, USA
+              </li>
+            </ul>
+
+
+            <h2>Contributors</h2>
+
+            <p>Many people have contributed to deal.II over the years,
+              many of them very substantial parts of the
+              library. Their work is greatly appreciated: no open
+              source project can survice without a community! The
+              following people (in alphabetical order) have
+              contributed to the library, with many more who have
+              sent in fixes and small enhancements:
+            </p>
+
+            <div id="author-list-div">
+            <ol id="author-list">
+<!--#include file="authors.txt" -->
+            </ol>
+
+<script>
+  var list = document.getElementById("author-list");
+
+  // do a bubble sort on the names as given in the authors.txt file
+  // where we have the family names first
+  var switching, shouldSwitch
+  switching = true;
+  while (switching)
+  {
+    switching = false;  // assume no more switches are necessary
+  
+    var b = list.getElementsByTagName("LI");
+    for (var i = 0; i < (b.length - 1); i++)
+    {
+      if (b[i].innerHTML.toLowerCase() > b[i+1].innerHTML.toLowerCase())
+      {
+        b[i].parentNode.insertBefore(b[i + 1], b[i]);
+        switching = true;
+      }
+    }
+  }
+
+  // then switch first and last names
+  var b = list.getElementsByTagName("LI");
+  for (var i = 0; i < b.length; i++)
+  {
+    var familyName = b[i].innerHTML.split(",")[0];
+    var givenName  = b[i].innerHTML.split(",")[1];
+    b[i].innerHTML = givenName + familyName;
+  }
+</script>
+            
+            </div>
+
+          </div>
+          <div class="well">
+
+            <p>
+              deal.II draws from some ideas which were first implemented in the
+              predecessor library,
+              DEAL, developed by Guido Kanschat, Franz-Theo
+              Suttmeier, and Roland Becker. It has also benefitted from
+              knowing about DiffPack, a library developed in Norway in the
+              1990s.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+    <!--#include file="footer.include" -->
+
+    </div>
+  </body>
+
+  <!-- Some JQuery needs to come after the body -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/accordion.js"></script>
+</html>
+

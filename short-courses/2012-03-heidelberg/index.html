@@ -1,0 +1,336 @@
+<html>
+  <head>
+    <title>Heidelberg/HGS deal.II course</title>
+    <meta name="svn_id" content="$Id: index.html 4684 2012-03-15 10:04:22Z bangerth $">
+    <link href="screen.css" type="text/css" rel="StyleSheet">
+  </head>
+  <body>
+
+    <hr>
+
+    <h1 align="center"><b> Finite Element Methods in Scientific Computing</b> </h1>
+
+    <h4 align="center">
+      March 19-30, 2012
+      &nbsp;    &nbsp;    &nbsp;    &nbsp;    &nbsp;    &nbsp;    &nbsp;
+      &nbsp;    &nbsp;    &nbsp;    &nbsp;    &nbsp;    &nbsp;    &nbsp;
+      <a href = "http://www.math.tamu.edu/~bangerth">Wolfgang Bangerth</a>, Texas A&amp;M University</h4>
+
+    <hr>
+
+    <table align="center" width="90%">
+      <tr>
+	<td>
+	  <img src="mainmid.png" alt="Main image" align="left">
+	</td>
+
+	<td>
+	  <h4>General Information</h4>
+	  <p>
+	    Finite element methods (FEM) are widely used in the computational
+	    solution of partial differential equations in the sciences and engineering.
+	    The course is intended to give students a perspective on the practical aspects
+	    of the FEM, in particular on how typical finite element software
+	    is structured, on algorithmic details of how to efficiently implement it, and
+	    on pre- and postprocessing steps.
+	  </p>
+
+	  <p>
+	    The goal is for students to have
+	    a finite element code at
+	    the end of the course for simulations that are part of
+	    their PhD research.
+	  </p>
+
+	  <p>
+	    <table>
+	      <tr>
+		<td>
+		  <b>More: </b>
+		</td>
+		<td>
+		  <a href="#audience">target audience</a> //
+		  <a href="#registration">registration</a> //
+		  <a href="#logistics">logistics</a> //
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		</td>
+		<td>
+		  <a href="#topics">covered topics</a> //
+		  <a href="#prereqs">prerequisites</a> //
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		</td>
+		<td>
+		  <a href="#rationale">rationale for this class</a> //
+		  <a href="#lit">literature</a>.
+		</td>
+	      </tr>
+	    </table>
+	  </p>
+	</td>
+      </tr>
+    </table>
+
+    <hr>
+
+    <a name="audience">
+      <h4>Target audience</h4>
+    </a>
+
+    <p>
+      The course is intended for masters and doctoral students as well
+      as postdocs who have to
+      solve partial differential equations as part of their
+      research. This includes both people who are interested in
+      developing computational methods using model problems, as well
+      as for those who just want to solve PDEs as part of their
+      applied science research (e.g. in physics, chemistry, biology,
+      engineering). The outcome of the course is that every
+      participant should have a code at the end that supports their
+      research.
+    </p>
+
+    <p>
+      Participants need not be experts in the finite element method,
+      but need to have knowledge of both basic numerical methods
+      (quadrature, solving linear systems) as well as programming,
+      preferably in C++.
+    </p>
+
+
+    <a name="registration">
+      <h4>Registration</h4>
+    </a>
+
+    <p>
+      In order to register for this course, please send email to
+      <a href="mailto:bangerth@math.tamu.edu">bangerth@math.tamu.edu</a>.
+      The <b>deadline for registration is March 9, 2012</b>.
+      Please note the <a href="#prereqs">prerequisite knowledge you
+      need to have</a> to participate successfully in this course.
+    </p>
+
+
+
+    <a name="logistics">
+      <h4>Logistics</h4>
+    </a>
+
+    <p>
+      The course will run daily 9-12 and 1-4 between March 19 and
+      March 30 in the left half of the IWR computer pool in the
+      Otto-Meyerhof-Zentrum next to the IWR building. For a map,
+      <a href="http://www.klinikum.uni-heidelberg.de/Wegweiser.4520.0.html">see
+      here</a>. To find the computer pool, enter the side door on the
+      east side (right on the map), go to the basement, and follow the
+      long hallwall down; it's the second door on the right.
+    </p>
+
+
+
+    <a name="topics">
+      <h4>Topics to be covered</h4>
+    </a>
+
+    <ul>
+      <li> Basics of finite element methods </li>
+      <li> Structure of finite element codes </li>
+      <li> Assembling linear systems of equations and algorithmic aspects </li>
+      <li> Iterative solvers for large linear systems </li>
+      <li> Adaptive mesh refinement </li>
+      <li> Vector-valued, multi-physics and mixed problems </li>
+      <li> Nonlinear problems </li>
+      <li> Postprocessing, visualization, and parallelization aspects </li>
+      <li> Collaborative software development, e.g. through the use of
+	subversion </li>
+      <li> Software engineering practices for large-scale software,
+	e.g. automated build and test systems, tools for documentation </li>
+      <li> Additional topics may be chosen based on student interests.</li>
+    </ul>
+
+    <p>
+      This course is intended for students of mathematics involved in
+      research in numerical methods as well as students in the engineering
+      disciplines.
+    </p>
+
+
+    <a name="prereqs">
+      <h4>Prerequisites</h4>
+    </a>
+
+    <ul>
+      <li> Basic knowledge of the finite element method, or at least basic
+	knowledge of numerical techniques such as iterative solvers or
+	quadrature. This is equivalent to the
+	<a href="http://numerik.iwr.uni-heidelberg.de/~lehre/notes/">"Numerische
+	Mathematik 0"</a> course.
+      <li> Good knowledge of C++. Students without adequate C++ programming
+	skills will not be able to benefit from this course. We will
+	not <i>teach</i> programming in this class, but <i>use</i>
+	programming.
+      <li> Basic knowledge of working on the command line, preferably on
+      linux.
+    </ul>
+
+
+<!--
+    <h4>Course Schedule</h4>
+
+    Here is a rough outline and schedule of the course. Actual allocation of weeks
+    may differ and will depend on student interest and the projects given to
+    students:
+
+    <table align="center" class="tutorial" width="80%">
+      <tr><td width="20%">
+	  Week 1, 1/17 </td><td width="50%"> Getting and installing deal.II. Basics of finite element
+          programming.
+      </td></tr>
+      <tr><td>
+	  Week 2, 1/24 </td><td> Project presentations.
+      </td></tr>
+      <tr><td>
+	  Week 3, 1/31 </td><td> Review of C++ templates. The step-1 and step-2 tutorial
+          programs. Step-3 and step-4.
+      </td></tr>
+      <tr><td>
+	  Week 4, 2/7 </td><td> Step-5, step-6.
+      </td></tr>
+      <tr><td>
+	  Week 5, 2/14 </td><td> Visualization, collaborative software development, defensive
+          programming,
+          step-7, basics of vector-valued problems.
+      </td></tr>
+      <tr><td>
+	  Week 6, 2/21 </td><td> Vector-valued problems: setting up block matrices
+          and vectors, partitioning degrees of freedom, deriving block solvers by
+          considering matrices only as linear operators; using templates to
+          describe \textit{concepts} instead of actions, step-20, step-22.
+      </td></tr>
+      <tr><td>
+	  Week 7, 2/28 </td><td> Step-20, step-22, time-dependent problems: classification
+	  and examples.
+      </td></tr>
+      <tr><td>
+	  Week 8, 3/7 </td><td>  Time-dependent problems: the heat equation,
+          explicit and implicit schemes; the wave equation: explicit and
+          implicit schemes.
+      </td></tr>
+      <tr><td>
+	  Week 9, 3/14 </td><td> Project work.
+      </td></tr>
+      <tr><td>
+	  Week 10, 3/21 </td><td> Mid-semester presentations.
+      </td></tr>
+      <tr><td>
+	  Week 11, 3/28 </td><td> The ParameterHandler class to deal with
+          run-time parameters, multithreading.
+      </td></tr>
+      <tr><td>
+	  Week 12, 4/4 </td><td> Differential-algebraic equations, IMPES
+          schemes; time step choice in transport
+          equations.
+      </td></tr>
+      <tr><td>
+	  Week 13, 4/11 </td><td> Parallelization, project work.
+      </td></tr>
+      <tr><td>
+	  Week 14, 4/18 </td><td> Project work.
+      </td></tr>
+      <tr><td>
+	  Week 15, 4/25 </td><td> Project work.
+      </td></tr>
+      <tr><td>
+	  Week 16, 5/2 </td><td> Project work; final project presentations on Friday May 6th,
+	  2011, 12:30-2:30pm.
+      </td></tr>
+    </table>
+
+-->
+
+    <a name="rationale">
+      <h4>Rationale for this course</h4>
+    </a>
+
+    <p>
+      One of the most important lessons learned over the past decade is
+      that due to their size, modern numerical software can't be written from scratch
+      for each new project, and must instead build on existing software libraries
+      that handle most of what constitutes the finite element method as well as
+      linear algebra and parallel communication. Applications then only have to
+      implement things like bilinear forms, outer nonlinear solution loops, and
+      linear solvers specialized to the application.
+    </p>
+
+    <p>
+      The course will use a large Open Source finite element library and other open
+      source tools for the entire workflow. The library, deal.II,
+      can be found at <a href="http://www.dealii.org/">http://www.dealii.org/</a> and is developed mainly at Texas A&amp;M University
+      in
+      collaboration with other researchers worldwide. It is used as the standard
+      research and teaching tool for numerical computing in the Department of
+      Mathematics. It supports the discretization of arbitrary partial differential
+      equations and runs on machines from laptops to supercomputers with more than
+      10,000 processors.
+    </p>
+
+    <p>
+      The first part of the course will be used to review the basic mathematical
+      concepts used in this software, such as finite element theory and iterative
+      solvers. The rest of the course will be used for projects in which students
+      are guided through the implementation of an application related to their
+      research project or interests. Part of this will be teaching the use of
+      modern software engineering practices, such as the use of revision control management
+      systems (e.g. Subversion), writing documentation, and writing tests for
+      automated testsuites. The goal is the development of a code that a) helps in
+      the research of a student, and b) may be used as the starting point for future
+      generations of students. It may also be converted into a tutorial for deal.II.
+    </p>
+
+
+    <a name="lit">
+      <h4>Literature</h4>
+    </a>
+
+    <p>
+      To the best of my knowledge, there isn't much in terms of books on writing
+      large-scale software for finite element simulations. What is there often
+      treats a single software package; for example, there are books about FEMLAB
+      and DiffPack, two commercial finite element packages. For the packages to be
+      used in class, there are no such books, but deal.II has several thousand pages
+      of documentation. It can be found at
+      the deal.II homepage at <a href="http://www.dealii.org/">http://www.dealii.org/</a>.
+    </p>
+
+    <p>
+      For the other topics, there are good books. There is a plethora of
+      books about the theory of finite elements; for iterative solvers of
+      linear and nonlinear systems, the following books are commonly
+      referenced:
+      <ul>
+	<li>  Y. Saad, "Iterative Methods for Sparse Linear Systems" (an
+	  exhaustive book on the theory of iterative solvers)
+	<li>  R. Barrett et al., "Templates for the Solution of Linear Systems"
+	  (a short book explaining the implementation of a variety of linear
+	  solvers)
+	<li>  C. T. Kelley, "Iterative Methods for Linear and Nonlinear
+	  Equations"
+      </ul>
+
+
+      The use of Subversion is explained in
+      <ul>
+	<li> C. M. Pilato et al., "Version
+	  Control with Subversion" (this book is also available <a href="http://svnbook.red-bean.com/nightly/en/index.html">online</a>)
+      </ul>
+      Other software design techniques such as unit testing and automated
+      build systems are treated in many Computer Science texts, but what is
+      needed will also be covered in class.
+
+  </body>
+</html>
