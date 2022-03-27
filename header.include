@@ -59,6 +59,9 @@
                 <li><a href="/current/doxygen/deal.II/Tutorial.html">Tutorials</a></li>
                 <li><a href="/current/doxygen/deal.II/index.html">Manual</a></li>
                 <li><a href="/current/doxygen/deal.II/changes_between_9_2_0_and_9_3_0.html">Changes in 9.3.0</a></li>
+                <li><a href="/current/doxygen/deal.II/changes_between_9_3_0_and_9_3_1.html">Changes in 9.3.1</a></li>
+                <li><a href="/current/doxygen/deal.II/changes_between_9_3_1_and_9_3_2.html">Changes in 9.3.2</a></li>
+                <li><a href="/current/doxygen/deal.II/changes_between_9_3_2_and_9_3_3.html">Changes in 9.3.3</a></li>
               </ul>
             </li>
 
@@ -90,17 +93,11 @@
                 <li><div class="dropdown-menu-header">
                 Documentation</div></li>
                 <li><a href="/developer/index.html">master</a></li>
-                <li><a href="/9.3.0/index.html">9.3.0</a></li>
+                <li><a href="/9.3.3/index.html">9.3.3</a></li>
                 <li><a href="/9.2.0/index.html">9.2.0</a></li>
                 <li><a href="/9.1.1/index.html">9.1.1</a></li>
                 <li><a href="/9.0.0/index.html">9.0.0</a></li>
-                <li><a href="/8.5.0/index.html">8.5.0</a></li>
-                <li><a href="/8.4.1/index.html">8.4.1</a></li>
-                <li><a href="/8.3.0/index.html">8.3.0</a></li>
-                <li><a href="/8.2.1/index.html">8.2.1</a></li>
-                <li><a href="/8.2.0/index.html">8.2.0</a></li>
-                <li><a href="/8.1.0/index.html">8.1.0</a></li>
-                <li><a href="/8.0.0/index.html">8.0.0</a></li>
+                <li><a href="/8.5.1/index.html">8.5.1</a></li>
               </ul>
             </li>
 
