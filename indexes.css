@@ -1,0 +1,105 @@
+@font-face {
+  font-family: 'TrocchiBoldSansSerif';
+  src: url('/TrocchiBoldSansSerif.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Trocchi';
+  src: url('/Trocchi.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  background-color:#CCC;}
+body {
+  background-color:#EEE;
+  font-family: 'Trocchi';
+  font-weight: normal;
+  font-style: normal; 
+  margin: 0; }
+
+a:link {
+  color:#8b0000;
+  text-decoration:underline; }
+
+a:visited {
+  color:#8b0000;
+  text-decoration:underline; }
+
+a:focus {
+  color:#9b8b00;
+  text-decoration:underline; }
+
+a:hover {
+  color:#9b8b00;
+  text-decoration:underline; }
+
+a:active {
+  color:black;
+  text-decoration:underline; }
+
+
+div#fuss {
+  clear:both;
+  padding: 0.5em 10%; 
+  background-color: #CCC;
+  border-top: solid 1px #AAA;}
+
+.textblock {
+  line-height: 1.2em;
+  padding-top: 0.4em;
+  margin-left: 07%;
+  margin-right: 07%; }
+
+.textblock ul {
+  list-style-type: none;
+}
+
+.textblock li {
+  line-height: 1.5em;
+  padding-top: 0.6em; }
+
+.textblock span:first-of-type {
+    text-align:right
+}
+
+.textblock span {
+    display:inline-block;
+    width:7.8em;
+    text-align:left;
+}
+
+ul.code-listing {
+  padding-top: 0.6em;
+}
+
+.code-listing li {
+  line-height: 1.2em;
+}
+
+.code-listing span:first-of-type {
+    text-align:left
+}
+
+.code-listing span {
+    display:inline-block;
+    width:26.0em;
+    text-align:left;
+}
+
+.textblock h1 {
+  font-family: 'TrocchiBoldSansSerif';
+  font-weight: bold;
+  font-style: normal; }
+
+.textblock h1 {
+  font-family: 'TrocchiBoldSansSerif';
+  font-weight: bold;
+  font-style: normal; }
+
+.textblock img {
+  height: 1.5em;
+}
