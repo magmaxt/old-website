@@ -81,7 +81,7 @@
                 <li><a href="https://dealii.org/developer/doxygen/deal.II/CodeGallery.html">Code gallery</a></li>
                 <li><a href="/developer/doxygen/deal.II/index.html">Manual</a></li>
                 <li><hr></li>
-                <li><a href="https://cdash.43-1.org/index.php?project=deal.II">Tests</a></li>
+                <li><a href="https://cdash.dealii.org/index.php?project=deal.II">Tests</a></li>
                 <li><a href="http://www.math.clemson.edu/~heister/bench/">Performance tests</a></li>
                 <li><a href="/developer/developers/testsuite.html">Testing info</a></li>
               </ul>
