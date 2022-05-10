@@ -75,7 +75,7 @@
                 <li><a href="/developer/doxygen/deal.II/Tutorial.html">Tutorials</a></li>
                 <li><a href="/developer/doxygen/deal.II/index.html">Manual</a></li>
                 <li><hr></li>
-                <li><a href="http://cdash.43-1.org/index.php?project=deal.II">Tests</a></li>
+                <li><a href="http://cdash.dealii.org/index.php?project=deal.II">Tests</a></li>
                 <li><a href="http://www.math.clemson.edu/~heister/bench/">Performance tests</a></li>
                 <li><a href="/developer/developers/testsuite.html">Testing info</a></li>
               </ul>
