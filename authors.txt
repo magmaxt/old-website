@@ -2,7 +2,7 @@
      the list is sorted in the html page again, and family and given names
      are switched there as well -->
 
-<li> Africa, Pasquale
+<li> Africa, Pasquale 
 <li> Aggarwal, Ashna 
 <li> Alexe, Mihai 
 <li> Allmaras, Moritz 
@@ -32,6 +32,7 @@
 <li> Brands, Benjamin 
 <li> Bruna-Rosso, Claire 
 <li> Bucelli, Michele 
+<li> Budde, Till 
 <li> Bürg, Markus 
 <li> Burnell, John 
 <li> Bzowski, Krysztof 
@@ -46,24 +47,26 @@
 <li> Cazamias, Jordan 
 <li> Chandrashekar, Praveen 
 <li> Cheng, Jie 
-<li> Christopher, Joshua
+<li> Chen, Huimin 
+<li> Christopher, Joshua 
 <li> Christov, Ivan 
 <li> Chuang, Pi-Yueh 
 <li> Chueh, Chih-Che 
 <li> Cinatl, Emma 
-<li> Clevenger, Conrad 
-<li> Clevenger, Thomas C. 
+<li> Clevenger, Thomas C.
 <li> Comellas, Ester 
 <li> Cosburn, Katherine 
 <li> Cox, Sam 
+<li> Cui, Cu 
 <li> Dannberg, Juliane 
 <li> Das, Sambit 
 <li> Davis, Andrew 
 <li> Davydov, Denis 
 <li> Dejene, Elias 
 <li> Demo, Nicola 
+<li> Dev, Chaitanya 
 <li> developers, Ginkgo 
-<li> Di Ilio, Giovanni
+<li> Di Ilio, Giovanni 
 <li> Dominici, Stefano 
 <li> Dommaraju, Nivesh 
 <li> Dong, Brett 
@@ -75,14 +78,18 @@
 <li> Engelhard, Marco 
 <li> Esser, Patrick 
 <li> Evgrafov, Anton 
+<li> Feder, Marco 
 <li> Fehling, Marc 
 <li> Fehn, Niklas 
 <li> Fernando, Isuru 
 <li> Fildes, Rebecca 
 <li> Fink, Andreas 
+<li> Foucart, Corbin 
 <li> Fraters, Menno 
+<li> Friedlein, Johannes 
 <li> Frohne, Jörg 
 <li> Fuchs, Anian 
+<li> Fuchs, Sebastian 
 <li> Fumagalli, Ivan 
 <li> Galindo, Andres 
 <li> Garcia-Sanchez, Daniel 
@@ -103,6 +110,7 @@
 <li> Grove, Ryan 
 <li> Gruber, Felix 
 <li> Guevremont, Olivier 
+<li> Guignard, Diane 
 <li> Hamed, Maien 
 <li> Hanophy, Joshua 
 <li> Harbour, Logan 
@@ -112,7 +120,7 @@
 <li> Hassan, Mohammed 
 <li> Hayes, Nicole 
 <li> He, Bang 
-<li> Heien, Eric
+<li> Heien, Eric 
 <li> Heiniger, Christoph 
 <li> Heinz, Johannes 
 <li> Heister, Timo 
@@ -122,11 +130,11 @@
 <li> Ilangovan, Dakshina 
 <li> Imbert-Gerard, Lise-Marie 
 <li> Imfeld, Samuel 
-<li> Ingimarson, Sean
+<li> Ingimarson, Sean 
 <li> Janssen, Bärbel 
 <li> Jayadharan, Manu 
 <li> Jazi, Armin Ghajar 
-<li> Jia, Pengfei
+<li> Jia, Pengfei 
 <li> Jin, Xing 
 <li> Jodlbauer, Daniel 
 <li> Kaessmair, Stefan 
@@ -139,6 +147,7 @@
 <li> Kergassner, Andreas 
 <li> Khattatov, Eldar 
 <li> Kim, Seungil 
+<li> Kinnewig, Sebastian 
 <li> Kirk, Benjamin Shelton 
 <li> Klewinghaus, Angela 
 <li> Kligge, Ingo 
@@ -173,6 +182,7 @@
 <li> Mang, Katrin 
 <li> Manigrasso, Cataldo 
 <li> Markowski, Mae 
+<li> Martin, Alberto F. 
 <li> Massing, Andre 
 <li> Matthews, Jonathan 
 <li> McBride, Andrew 
@@ -194,12 +204,14 @@
 <li> Neckels, David 
 <li> Nikolic, Dragan 
 <li> Novak, Emily 
+<li> O'Connor, Justin 
 <li> Omosebi, Omotayo 
 <li> Ospina, Santiago 
 <li> Ozeritskiy, Alexey 
 <li> Palkar, Vaibhav 
 <li> Patty, Spencer 
-<li> Paukner, Daniel
+<li> Pauen, Judith 
+<li> Paukner, Daniel 
 <li> Pauletti, M. Sebastian 
 <li> Pelteret, Jean-Paul 
 <li> Pereira, Rebecca 
@@ -210,7 +222,9 @@
 <li> Pitton, Giuseppe 
 <li> Porter, Geneva 
 <li> Posada, Fernando 
+<li> Potluri, Vachan 
 <li> Powell, Adam, IV 
+<li> Pratoori, Raghunandan 
 <li> Prieto Saavedra, Laura 
 <li> Prill, Florian 
 <li> Proell, Sebastian 
@@ -227,6 +241,7 @@
 <li> Rishin, Gennadiy 
 <li> Robey, Jonathan 
 <li> Rodriguez, Angel 
+<li> Roman, Jose E. 
 <li> Romero, Irabiel 
 <li> Rose, Ian 
 <li> Roth, Julian 
@@ -238,10 +253,11 @@
 <li> Sanchez-Vizuet, Tonatiuh 
 <li> Sartori, Alberto 
 <li> Schneebeli, Anna 
-<li> Schneider, David
+<li> Schneider, David 
 <li> Schoeder, Svenja 
-<li> Schrage, Jan
-<li> Schreter, Magdalena
+<li> Schoof, Raphael 
+<li> Schrage, Jan 
+<li> Schreter, Magdalena 
 <li> Schulz, Ralf B. 
 <li> Schussnig, Richard 
 <li> Shapero, Daniel 
@@ -249,8 +265,8 @@
 <li> Sheldon, Jason 
 <li> Shi-Dong, Doug 
 <li> Shields, Ben 
-<li> Simon, Konrad
-<li> Soldner, Dominic
+<li> Simon, Konrad 
+<li> Soldner, Dominic 
 <li> Sonner, Florian 
 <li> Sparks, Stephanie 
 <li> Stadler, Michael 
@@ -273,6 +289,7 @@
 <li> Turcksin, Bruno 
 <li> Vanmaele, Ferdinand 
 <li> Vidal, Antoni 
+<li> Virk, Kuljit S. 
 <li> Virtanen, Heikki 
 <li> Wang, Jiaxin 
 <li> Wang, Kainan 
@@ -286,6 +303,7 @@
 <li> Weygand, Daniel 
 <li> White, Joshua 
 <li> Wichrowski, Michał 
+<li> Wik, Niklas 
 <li> Witte, Julius 
 <li> Wollner, Winnifried 
 <li> Wülker, Christian 
