@@ -23,7 +23,7 @@
               <ul class="dropdown-menu">
                 <li><a href="https://github.com/dealii/dealii/wiki/Frequently-Asked-Questions">FAQ</a></li>
                 <li><a href="/mail.html">Mailing lists</a></li>
-                <li><a href="http://www.math.colostate.edu/~bangerth/videos.html">Wolfgang's Lectures</a></li>
+                <li><a href="https://www.math.colostate.edu/~bangerth/videos.html">Wolfgang's Lectures</a></li>
                 <li><a href="https://github.com/dealii/dealii/wiki">Wiki</a></li>
                 <li><a href="https://github.com/dealii/dealii/issues">Bug tracker</a></li>
               </ul>
@@ -79,7 +79,7 @@
                 <li><a href="/developer/doxygen/deal.II/index.html">Manual</a></li>
                 <li><hr></li>
                 <li><a href="https://cdash.dealii.org/index.php?project=deal.II">Tests</a></li>
-                <li><a href="http://www.math.clemson.edu/~heister/bench/">Performance tests</a></li>
+                <li><a href="https://www.math.clemson.edu/~heister/bench/">Performance tests</a></li>
                 <li><a href="/developer/developers/testsuite.html">Testing info</a></li>
               </ul>
             </li>
@@ -102,20 +102,21 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Applications<b class="caret"></b></a>
               <ul class="dropdown-menu">
-                <li><a href="http://aspect.geodynamics.org/">ASPECT</a></li>
-                <li><a href="http://github.com/SlaybaughLab/BART/">Bay Area Radiation Transport</a></li>
+                <li><a href="http://www.agros2d.org/">Agros Suite</a>/<li>
+                <li><a href="https://aspect.geodynamics.org/">ASPECT</a></li>
+                <li><a href="https://github.com/SlaybaughLab/BART/">Bay Area Radiation Transport</a></li>
                 <li><a href="https://sites.google.com/umich.edu/dftfe">DFT-FE</a></li>
-                <li><a href="http://www.dopelib.net/">DOpElib</a></li>
+                <li><a href="https://winnifried.github.io/dopelib/">DOpElib</a></li>
                 <li><a href="https://github.com/exadg/exadg">ExaDG</a></li>
                 <li><a href="https://github.com/hyperdeal/hyperdeal">hyper.deal</a></li>
                 <li><a href="https://github.com/lethe-cfd/lethe">Lethe</a></li>
                 <li><a href="https://lifex.gitlab.io/">life<sup>x</sup></a></li>
                 <li><a href="http://www.openfcst.mece.ualberta.ca/">OpenFCST</a></li>
-                <li><a href="http://github.com/mathLab/pi-DoMUS">pi-DoMUS</a></li>
+                <li><a href="https://github.com/mathLab/pi-DoMUS">pi-DoMUS</a></li>
                 <li><a href="https://www.precice.org">preCICE</a></li>
                 <li><a href="http://www.prisms-center.org/#/ctools/software">PRISMS</a></li>
                 <li><hr></li>
-                <li><a href="http://www.dealii.org/code-gallery.html">Code Gallery</a></li>
+                <li><a href="https://www.dealii.org/code-gallery.html">Code Gallery</a></li>
               </ul>
             </li>
           </ul>
