@@ -321,6 +321,7 @@
 <li> Weygand, Daniel 
 <li> White, Joshua 
 <li> Wichrowski, Michał 
+<li> Wick, Thomas
 <li> Wik, Niklas 
 <li> Witte, Julius 
 <li> Wollner, Winnifried 
