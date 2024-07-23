@@ -2,6 +2,7 @@
      the list is sorted in the html page again, and family and given names
      are switched there as well -->
 
+<li> Abdala, Laryssa 
 <li> Africa, Pasquale 
 <li> Aggarwal, Ashna 
 <li> Alexe, Mihai 
@@ -17,6 +18,7 @@
 <li> Arora, Rajat 
 <li> Babbar, Arpit 
 <li> Baker, Andrew 
+<li> Ballout, Abbas 
 <li> Bangerth, Wolfgang 
 <li> Bardelloni, Mauro 
 <li> Barnafi, Nicolas 
@@ -31,6 +33,7 @@
 <li> Bonito, Andrea 
 <li> Borelli, Marco 
 <li> Brands, Benjamin 
+<li> Brotz, Julian 
 <li> Bruna-Rosso, Claire 
 <li> Bucelli, Michele 
 <li> Budde, Till 
@@ -144,6 +147,7 @@
 <li> Jia, Pengfei 
 <li> Jin, Tao 
 <li> Jin, Xing 
+<li> Jin, Yimin 
 <li> Jodlbauer, Daniel 
 <li> Kaessmair, Stefan 
 <li> Kajan, Marie 
@@ -185,6 +189,7 @@
 <li> Ligneul, Tulio 
 <li> Li, Yan 
 <li> Ljungkvist, Karl 
+<li> Loriot, Sébastien 
 <li> Mahadevan, Vijay 
 <li> Maier, Matthias 
 <li> Mang, Katrin 
@@ -204,6 +209,7 @@
 <li> Mola, Andrea 
 <li> Morales Miranda, Adriana 
 <li> Much, Nils 
+<li> Mujahid, Abdullah 
 <li> Müller, Helmut 
 <li> Munch, Peter 
 <li> Munoz Criollo, Jose Javier 
@@ -218,6 +224,7 @@
 <li> Ospina, Santiago 
 <li> Ozeritskiy, Alexey 
 <li> Palkar, Vaibhav 
+<li> Patience, Paul A. 
 <li> Patty, Spencer 
 <li> Pauen, Judith 
 <li> Paukner, Daniel 
@@ -244,11 +251,14 @@
 <li> Qiao, Lei 
 <li> Qin, Ce 
 <li> Quezada de Luna, Manuel 
+<li> Ranocha, Hendrik 
 <li> Rapson, Michael 
 <li> Rastak, Reza 
+<li> Resch, Johannes 
 <li> Richter, Roland 
 <li> Richter, Thomas 
 <li> Rishin, Gennadiy 
+<li> Ritthaler, Andreas 
 <li> Robey, Jonathan 
 <li> Rodriguez, Angel 
 <li> Rogozin, Oleg 
@@ -264,6 +274,7 @@
 <li> Samii, Ali 
 <li> Sanchez-Vizuet, Tonatiuh 
 <li> Sartori, Alberto 
+<li> Scheifinger, Malik 
 <li> Schlottke-Lakemper, Michael 
 <li> Schmidt, Christoph 
 <li> Schneebeli, Anna 
@@ -275,6 +286,7 @@
 <li> Schulz, Ralf B. 
 <li> Schussnig, Richard 
 <li> Schween, Nils 
+<li> Schwiebert, Kyle 
 <li> Shahba, Ahmad 
 <li> Shapero, Daniel 
 <li> Sharma, Natasha S. 
@@ -282,6 +294,7 @@
 <li> Shi-Dong, Doug 
 <li> Shields, Ben 
 <li> Simon, Konrad 
+<li> Singh, Simranjeet 
 <li> Soldner, Dominic 
 <li> Sonner, Florian 
 <li> Sparks, Stephanie 
@@ -290,6 +303,7 @@
 <li> Stebel, Jan 
 <li> Steigemann, Martin 
 <li> Sticko, Simon 
+<li> Still, Dominik 
 <li> Suttmeier, Franz-Theo 
 <li> Sutton, Oliver 
 <li> Talavatifard, Habib 
@@ -297,6 +311,7 @@
 <li> Temür, Buğrahan 
 <li> Tezzele, Marco 
 <li> Thiele, Jan Philipp 
+<li> Thomas, Thierry 
 <li> Thompson, Ben 
 <li> Tian, Jihuan 
 <li> Tidke, Malhar 
@@ -306,6 +321,7 @@
 <li> Turcksin, Bruno 
 <li> Vanmaele, Ferdinand 
 <li> Vidal, Antoni 
+<li> Vijay, Vinayak 
 <li> Virk, Kuljit S. 
 <li> Virtanen, Heikki 
 <li> Wang, Jiaxin 
@@ -322,12 +338,14 @@
 <li> White, Joshua 
 <li> Wichrowski, Michał 
 <li> Wick, Thomas
+<li> Wiesheier, Simon 
 <li> Wik, Niklas 
 <li> Witte, Julius 
 <li> Wollner, Winnifried 
 <li> Wülker, Christian 
 <li> Yang, Ming 
 <li> Yim, Jaeryun 
+<li> Yin, Chengjiang 
 <li> Young, Toby D. 
 <li> Yu, Feimi 
 <li> Yushutin, Vladimir 
