@@ -23,7 +23,7 @@
               <ul class="dropdown-menu">
                 <li><a href="https://github.com/dealii/dealii/wiki/Frequently-Asked-Questions">FAQ</a></li>
                 <li><a href="/mail.html">Mailing lists</a></li>
-                <li><a href="http://www.math.colostate.edu/~bangerth/videos.html">Wolfgang's Lectures</a></li>
+                <li><a href="https://www.math.colostate.edu/~bangerth/videos.html">Wolfgang's Lectures</a></li>
                 <li><a href="https://github.com/dealii/dealii/wiki">Wiki</a></li>
                 <li><a href="https://github.com/dealii/dealii/issues">Bug tracker</a></li>
               </ul>
@@ -49,7 +49,7 @@
             </li>
 
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">9.0<b class="caret"></b></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">9.5<b class="caret"></b></a>
               <ul class="dropdown-menu">
                 <li><div class="dropdown-menu-header"><abbr>deal.II</abbr> release</div></li>
                 <li><hr></li>
@@ -58,7 +58,7 @@
                 <li><a href="/current/index.html">Documentation</a></li>
                 <li><a href="/current/doxygen/deal.II/Tutorial.html">Tutorials</a></li>
                 <li><a href="/current/doxygen/deal.II/index.html">Manual</a></li>
-                <li><a href="/current/doxygen/deal.II/changes_between_8_5_0_and_9_0_0.html">Changes in 9.0.0</a></li>
+                <li><a href="/current/doxygen/deal.II/changes_between_9_4_0_and_9_5_0.html">Changes in 9.5.0</a></li>
               </ul>
             </li>
 
@@ -78,7 +78,7 @@
                 <li><a href="https://dealii.org/developer/doxygen/deal.II/CodeGallery.html">Code gallery</a></li>
                 <li><a href="/developer/doxygen/deal.II/index.html">Manual</a></li>
                 <li><hr></li>
-                <li><a href="http://cdash.dealii.org/index.php?project=deal.II">Tests</a></li>
+                <li><a href="https://cdash.dealii.org/index.php?project=deal.II">Tests</a></li>
                 <li><a href="https://dealii.org/performance_tests/graphs/">Performance tests</a></li>
                 <li><a href="/developer/developers/testsuite.html">Testing info</a></li>
               </ul>
@@ -90,29 +90,34 @@
                 <li><div class="dropdown-menu-header">
                 Documentation</div></li>
                 <li><a href="/developer/index.html">master</a></li>
+                <li><a href="/9.5.0/index.html">9.5.0</a></li>
+                <li><a href="/9.4.0/index.html">9.4.0</a></li>
+                <li><a href="/9.3.3/index.html">9.3.3</a></li>
+                <li><a href="/9.2.0/index.html">9.2.0</a></li>
+                <li><a href="/9.1.1/index.html">9.1.1</a></li>
                 <li><a href="/9.0.0/index.html">9.0.0</a></li>
-                <li><a href="/8.5.0/index.html">8.5.0</a></li>
-                <li><a href="/8.4.1/index.html">8.4.1</a></li>
-                <li><a href="/8.3.0/index.html">8.3.0</a></li>
-                <li><a href="/8.2.1/index.html">8.2.1</a></li>
-                <li><a href="/8.2.0/index.html">8.2.0</a></li>
-                <li><a href="/8.1.0/index.html">8.1.0</a></li>
-                <li><a href="/8.0.0/index.html">8.0.0</a></li>
+                <li><a href="/8.5.1/index.html">8.5.1</a></li>
               </ul>
             </li>
 
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Applications<b class="caret"></b></a>
               <ul class="dropdown-menu">
-                <li><a href="http://aspect.dealii.org/">Aspect</a></li>
-                <li><a href="http://github.com/SlaybaughLab/BART/">Bay Area Radiation Transport</a></li>
+                <li><a href="http://www.agros2d.org/">Agros Suite</a></li>
+                <li><a href="https://aspect.geodynamics.org/">ASPECT</a></li>
+                <li><a href="https://github.com/SlaybaughLab/BART/">Bay Area Radiation Transport</a></li>
                 <li><a href="https://sites.google.com/umich.edu/dftfe">DFT-FE</a></li>
-                <li><a href="http://www.dopelib.net/">DOpElib</a></li>
+                <li><a href="https://winnifried.github.io/dopelib/">DOpElib</a></li>
+                <li><a href="https://github.com/exadg/exadg">ExaDG</a></li>
+                <li><a href="https://github.com/hyperdeal/hyperdeal">hyper.deal</a></li>
+                <li><a href="https://github.com/lethe-cfd/lethe">Lethe</a></li>
+                <li><a href="https://lifex.gitlab.io/">life<sup>x</sup></a></li>
                 <li><a href="http://www.openfcst.mece.ualberta.ca/">OpenFCST</a></li>
-                <li><a href="http://github.com/mathLab/pi-DoMUS">pi-DoMUS</a></li>
+                <li><a href="https://github.com/mathLab/pi-DoMUS">pi-DoMUS</a></li>
+                <li><a href="https://www.precice.org">preCICE</a></li>
                 <li><a href="http://www.prisms-center.org/#/ctools/software">PRISMS</a></li>
                 <li><hr></li>
-                <li><a href="http://www.dealii.org/code-gallery.html">Code Gallery</a></li>
+                <li><a href="https://www.dealii.org/code-gallery.html">Code Gallery</a></li>
               </ul>
             </li>
           </ul>
